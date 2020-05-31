@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="PCS.VacancyDispHandler.Emulator.VacancyDispEmulatorController">
+    <children>
+        <AnchorPane layoutX="9.0" layoutY="14.0" prefHeight="125.0" prefWidth="482.0">
+            <children>
+                <TextField fx:id="floor1" layoutX="16.0" layoutY="31.0" prefHeight="64.0" prefWidth="81.0"
+                           AnchorPane.leftAnchor="19.75">
+                    <padding>
+                        <Insets right="19.75"/>
+                    </padding>
+                </TextField>
+                <TextField fx:id="floor2" layoutX="130.0" layoutY="31.0" prefHeight="64.0" prefWidth="81.0"
+                           AnchorPane.leftAnchor="140.25"/>
+                <TextField fx:id="floor4" layoutX="373.0" layoutY="31.0" prefHeight="64.0" prefWidth="81.0"
+                           AnchorPane.rightAnchor="19.75"/>
+                <TextField fx:id="floor3" layoutX="253.0" layoutY="31.0" prefHeight="64.0" prefWidth="81.0"
+                           AnchorPane.leftAnchor="260.75"/>
+
+                <Text layoutX="34.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Floor"/>
+                <Text layoutX="146.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Floor"/>
+                <Text layoutX="272.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Third Floor"/>
+                <Text layoutX="389.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fourth Floor"/>
+            </children>
+        </AnchorPane>
+        <Button fx:id="resetF1" layoutX="43.0" layoutY="139.0" mnemonicParsing="false" onAction="#buttonPressed"
+                prefHeight="26.0" prefWidth="52.0" text="Reset"/>
+        <Button fx:id="resetF2" layoutX="167.0" layoutY="139.0" mnemonicParsing="false" onAction="#buttonPressed"
+                text="Reset"/>
+        <Button fx:id="resetF3" layoutX="284.0" layoutY="139.0" mnemonicParsing="false" onAction="#buttonPressed"
+                text="Reset"/>
+        <Button fx:id="resetF4" layoutX="404.0" layoutY="139.0" mnemonicParsing="false" onAction="#buttonPressed"
+                text="Reset"/>
+        <Button fx:id="resetAll" layoutX="219.0" layoutY="165.0" mnemonicParsing="false" onAction="#buttonPressed"
+                text="Reset All"/>
+    </children>
+</AnchorPane>

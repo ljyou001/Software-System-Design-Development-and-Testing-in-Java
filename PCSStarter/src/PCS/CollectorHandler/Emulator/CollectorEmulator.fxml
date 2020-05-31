@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="470.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="PCS.CollectorHandler.Emulator.CollectorEmulatorController">
+    <children>
+
+        <AnchorPane prefHeight="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+                    AnchorPane.topAnchor="20.0">
+            <children>
+                <Label layoutX="4.0" layoutY="20.0" text="Ticket">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Label>
+                <TextArea fx:id="ticketId" editable="true" layoutX="64.0" layoutY="12.0" prefHeight="39.0"
+                          prefWidth="188.0" text="" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="64.0"
+                          AnchorPane.rightAnchor="128.0" AnchorPane.topAnchor="12.0">
+                    <opaqueInsets>
+                        <Insets/>
+                    </opaqueInsets>
+                </TextArea>
+                <Button layoutX="273.0" layoutY="13.0" mnemonicParsing="false" onAction="#buttonPressed"
+                        prefHeight="39.0" prefWidth="103.0" text="Insert">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+
+        <AnchorPane prefHeight="30.0" prefWidth="380.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+                    AnchorPane.topAnchor="60.0">
+            <children>
+                <Button layoutX="-3.0" layoutY="23.0" mnemonicParsing="false" onAction="#buttonPressed"
+                        prefHeight="39.0" prefWidth="380.0" text="Admin Pass">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+
+        <AnchorPane layoutX="20.0" layoutY="105.0" prefHeight="282.0" prefWidth="380.0">
+            <children>
+                <TextArea fx:id="collectorTextArea" layoutY="36.0" prefHeight="302.0" prefWidth="380.0"/>
+            </children>
+        </AnchorPane>
+
+        <AnchorPane layoutX="17.0" layoutY="404.0" prefHeight="45.0" prefWidth="387.0"/>
+
+    </children>
+</AnchorPane>

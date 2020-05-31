@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            fx:controller="PCS.SensorHandler.Emulator.SensorEmulatorController">
+    <AnchorPane prefHeight="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+                AnchorPane.topAnchor="20.0">
+        <Button id="floor-1-up" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="50.0"
+                prefWidth="100.0" text="Up" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button id="floor-2-up" layoutX="123.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="50.0"
+                prefWidth="100.0" text="Up" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="123.0"
+                AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button id="floor-3-up" layoutX="244.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="50.0"
+                prefWidth="100.0" text="Up" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="244.0"
+                AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button id="floor-4-up" disable="true" layoutX="360.0" mnemonicParsing="false" onAction="#buttonPressed"
+                prefHeight="50.0" prefWidth="100.0" text="Up" AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+    </AnchorPane>
+
+    <AnchorPane prefHeight="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+                AnchorPane.topAnchor="80.0">
+        <Button id="floor-1-down" disable="true" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="50.0"
+                prefWidth="100.0" text="Down" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button id="floor-2-down" layoutX="124.0" mnemonicParsing="false" onAction="#buttonPressed"
+                prefHeight="50.0" prefWidth="100.0" text="Down" AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="124.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button id="floor-3-down" layoutX="244.0" mnemonicParsing="false" onAction="#buttonPressed"
+                prefHeight="50.0" prefWidth="100.0" text="Down" AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="244.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button id="floor-4-down" layoutX="360.0" mnemonicParsing="false" onAction="#buttonPressed"
+                prefHeight="50.0" prefWidth="100.0" text="Down" AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+    </AnchorPane>
+    <Text layoutX="52.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Floor"/>
+    <Text layoutX="156.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Floor"/>
+    <Text layoutX="278.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Third Floor"/>
+    <Text layoutX="392.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fourth Floor"/>
+</AnchorPane>
