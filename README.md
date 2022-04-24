@@ -1,4 +1,4 @@
-# Software System Design Development and Testing in Java: A Parking Lot management system with Hardware Emulators
+# Software System Design Development and Testing in Java: A Parking-lot Management System with Hardware Emulators
 
 For requirements, please check Project_Specification-v1.2.pdf at this repo.
 
